@@ -10,22 +10,45 @@
     <meta name="application-name" content="Pimper">
     <link rel="icon" href="./logos/pimper_logo.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
-	<link rel="stylesheet" href="./styles/style.css">
-    <script src="./scripts/script.js"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/script.js" defer></script>
     <title>Pimper</title>
 </head>
 <body class="body">
     <header class="header">
-        <nav class="header_nav">
-            <a class="header_nav_link_left header_logo_link pimper_logo_link pimper_logo_link_root" href="./index.html" title="Pimper"><img class="header_nav_img header_logo_img pimper_logo pimper_logo_root" src="./logos/pimper_logo.png" alt="Pimper" title="Pimper" height="50px" width="50px"></a>
+        <nav class="header_nav center">
+            <a class="header_nav_link_left pimper_logo_link" href="./index.html" title="Pimper"><img class="pimper_logo" src="./logos/pimper_logo.png" alt="Pimper" title="Pimper" height="50px" width="50px"></a>
+            <a class="header_nav_link header_nav_link_left pimper_help" href="null" title="Aide">Besoin d'aide ?</a>
             <a class="header_nav_link header_nav_link_center pimper_link" href="./index.html" title="Pimper">Pimper</a>
-            <a class="header_nav_link header_nav_link_right pimper_sign_in" href="./pimper/login.html" title="Se connecter">Se connecter</a>
             <a class="header_nav_link header_nav_link_right pimper_sign_up" href="./pimper/register.html" title="S'inscrire">S'inscrire</a>
+            <a class="header_nav_link header_nav_link_right pimper_sign_in" href="./pimper/login.html" title="Se connecter">Se connecter</a>
         </nav>
     </header>
     
-    <footer class="footer">
-        <p class="footer_paragraph">© 2021 Pimper</p>
-    </footer>
+    <div class="container site">
+        <main class="main">
+          <a class="pimper_link" href="./index.html" title="Pimper"><h1 class="main_title center">Pimper, <span style="text-decoration: underline; text-decoration-thickness: 6px;">The Solution</span>.</h1></a>
+
+          <article class="start">
+            <h3 class="main_desc center">Inscrivez vous dès maintenant<br>et trouvez <span class="highlight">LA</span> personne<br>qui <span class="highlight">VOUS</span> correspond !</h3>
+            <a class="starting center" href="./pimper/register.html" title="M'inscrire"><h2>M'inscrire maintenant</h2></a>
+          </article>
+
+          <article class="desc">
+            <p class="counter center">Déjà <span class="highlight">7 <span class="counter1">518</span> <span class="counter2">649</span></span> inscrits !<br>Rejoignez les !</p>
+            <p class="explain center">Pour vous proposer les choix les plus pertinents,<br>
+            nos équipes de spécialistes on créer un formulaire d'inscription absolument unique au monde.<br>
+            En répondant à une série de questions simple et précise,<br>
+            nos algorithmes détermine quel type de personne vous êtes.<br>
+            En fonction du résultat, vous êtes classé dans des groupes de hautes qualités,<br>
+            qui vous permette de faire des rencontres précises et qualitatives.</p>
+          </article>
+
+        </main>
+      </div>
+
+      <footer class="footer">
+          <p class="footer_paragraph">© 2021 Pimper</p>
+      </footer>
 </body>
 </html>
