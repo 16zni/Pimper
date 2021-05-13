@@ -1,0 +1,52 @@
+:root{
+    --color_purple: #6e5773;
+    --color_purple_2: #814c8c;
+    --color_purple_2_shadow: rgba(129, 76, 140, 0.6);
+    --color_old_pink: #d45079;
+    --color_pink: #d43d6c;
+    --color_pink_shadow: rgba(212, 61, 108, 0.3);
+    --color_salmon: #ea9085;
+    --color_gray: #e9e1cc;
+    --color_white: #fff9fd;
+    --color_black: #0c0c0c;
+}
+
+.color_purple{
+    color: var(--color_purple);
+}
+  
+.color_purple_2{
+    color: var(--color_purple_2);
+}
+
+.color_purple_2_shadow{
+    color: var(--color_purple_2_shadow);
+}
+  
+.color_old_pink{
+    color: var(--color_old_pink);
+}
+  
+.color_pink{
+    color: var(--color_pink);
+}
+
+.color_pink_shadow{
+    color: var(--color_pink_shadow);
+}
+
+.color_salmon{
+    color: var(--color_salmon);
+}
+
+.color_gray{
+    color: var(--color_gray);
+}
+
+.color_white{
+    color: var(--color_white);
+}
+
+.color_black{
+    color: var(--color_black);
+}

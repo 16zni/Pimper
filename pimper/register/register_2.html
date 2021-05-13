@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html class="root" lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="S'inscrire sur Pimper.">
+    <meta name="author" content="16zni">
+    <meta name="keywords" content="Pimper,pimper">
+    <meta name="application-name" content="Pimper">
+    <link rel="icon" href="../../logos/pimper_logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <link rel="stylesheet" href="../../styles/pimper/register.css">
+    <script src="../../scripts/script.js" defer></script>
+    <title>Inscription - Pimper</title>
+</head>
+<body class="body">
+    <header class="header">
+        <nav class="header_nav center">
+            <a class="header_nav_link_left pimper_logo_link" href="../../index.html" title="Pimper"><img class="pimper_logo" src="../../logos/pimper_logo.png" alt="Pimper" title="Pimper" height="50px" width="50px"></a>
+            <a class="header_nav_link header_nav_link_left pimper_help" href="null" title="Aide">Besoin d'aide ?</a>
+            <a class="header_nav_link header_nav_link_center pimper_link" href="../../index.html" title="Pimper">Pimper</a>
+            <a class="header_nav_link header_nav_link_right pimper_sign_in" href="../login.html" title="Se connecter">Se connecter</a>
+        </nav>
+    </header>
+    
+    <div class="container site">
+        <main class="main">
+          <a class="pimper_link" href="../../index.html" title="Pimper"><h1 class="main_title center">Pimper, <span class="underline" style="text-decoration-thickness: 6px;">The Solution</span>.</h1></a>
+
+          <section class="desc_registration">
+              <p class="center">
+                Passons maintenant aux questions spécialement créées<br>
+                par nos experts, qui vont permettre de déterminer<br>
+                au mieux <span class="color_purple_2 bold">votre personnalité</span>, afin de pouvoir<br>
+                <span class="underline">vous proposez des profils</span> qui <span class="bold">vous correspondent.</span>
+              </p>
+          </section>
+
+          <section class="registration_form">
+            <form action="null" method="get">
+                <div class="form_page_2">
+                    <ul>
+                        <li>
+                            <h4>Vivez-vous en ville ou à la campagne ?</h4>
+                            <div class="center">
+                                <label class="inline" for="city">Ville</label>
+                                <input class="inline" type="radio" name="home" id="city" style="margin-right: 10%;">
+                                <label class="inline" for="countryside">Campagne</label>
+                                <input class="inline" type="radio" name="home" id="countryside">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Quelle est votre situation matrimoniale ?</h4>
+                            <div class="center">
+                                <label class="inline" for="matrimonial" style="margin-right: 1%;">Selectionnez :</label>
+                                <select class="inline" name="matrimonial" id="matrimonial">
+                                    <option>Non spécifié</option>
+                                    <option>Célibataire</option>
+                                    <option>Marié(e)</option>
+                                    <option>Veuf/Veuve</option>
+                                    <option>Divorcé(e)</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Quel est votre métier ?</h4>
+                            <input class="center" type="text" name="job" id="job" placeholder="Je suis restaurateur...">
+                        </li>
+                        <li>
+                            <h4>Combien gagnez-vous par mois ?</h4>
+                            <div class="center">
+                                <input class="center" type="number" name="salary" id="salary" placeholder="1678" style="display: inline;">
+                                <label for="salary" style="display: inline;">€</label>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Quels sont vos hobbies ?</h4>
+                            <textarea class="center" name="hobbies" id="hobbies" style="text-align: left;" cols="60" rows="10" placeholder="J'aime le tennis, le jazz et le vélo..."></textarea>
+                        </li>
+                        <li>
+                            <h4>Fumez-vous ?</h4>
+                            <div class="center">
+                                <label class="inline" for="yes">Oui</label>
+                                <input class="inline" type="radio" name="smoke" id="yes" style="margin-right: 10%;">
+                                <label class="inline" for="no">Non</label>
+                                <input class="inline" type="radio" name="smoke" id="no">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Buvez-vous ?</h4>
+                            <div class="center">
+                                <label class="inline" for="yes2">Oui</label>
+                                <input class="inline" type="radio" name="drink" id="yes2" style="margin-right: 10%;">
+                                <label class="inline" for="no2">Non</label>
+                                <input class="inline" type="radio" name="drink" id="no2">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Combien de livres lisez-vous par mois ?</h4>
+                            <div class="center">
+                                <input class="center" type="number" name="books" id="books" placeholder="6" style="display: inline;">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Combien de films voyez-vous par mois ?</h4>
+                            <div class="center">
+                                <input class="center" type="number" name="movies" id="movies" placeholder="17" style="display: inline;">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Combien de disques écoutez-vous par mois ?</h4>
+                            <div class="center">
+                                <input class="center" type="number" name="musics" id="musics" placeholder="13" style="display: inline;">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Que prenez-vous au petit déjeuner ?</h4>
+                            <textarea class="center" name="breakfast" id="breakfast" style="text-align: left;" cols="60" rows="6" placeholder="Des croissants avec de la confiture..."></textarea>
+                        </li>
+                        <li>
+                            <h4>Café ou thé ?</h4>
+                            <div class="center">
+                                <label class="inline" for="coffee">Café</label>
+                                <input class="inline" type="radio" name="drink2" id="coffe" style="margin-right: 10%;">
+                                <label class="inline" for="tea">Thé</label>
+                                <input class="inline" type="radio" name="drink2" id="tea">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Avec sucre ou sans sucre ?</h4>
+                            <div class="center">
+                                <label class="inline" for="with">Avec</label>
+                                <input class="inline" type="radio" name="sugar" id="with" style="margin-right: 10%;">
+                                <label class="inline" for="without">Sans</label>
+                                <input class="inline" type="radio" name="sugar" id="without">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Plutôt huile d’olive ou beurre ?</h4>
+                            <div class="center">
+                                <label class="inline" for="oil">Huile d'olive</label>
+                                <input class="inline" type="radio" name="radio180" id="oil" style="margin-right: 10%;">
+                                <label class="inline" for="butter">Beurre</label>
+                                <input class="inline" type="radio" name="radio180" id="butter">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Plutôt chocolat noir ou chocolat au lait ?</h4>
+                            <div class="center">
+                                <label class="inline" for="black">Chocolat noir</label>
+                                <input class="inline" type="radio" name="radio189" id="black" style="margin-right: 10%;">
+                                <label class="inline" for="milk">Chocolat au lait</label>
+                                <input class="inline" type="radio" name="radio189" id="milk">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Plutôt vacances en montagne ou à la mer ?</h4>
+                            <div class="center">
+                                <label class="inline" for="mountain">Montagne</label>
+                                <input class="inline" type="radio" name="radio198" id="mountain" style="margin-right: 10%;">
+                                <label class="inline" for="sea">Mer</label>
+                                <input class="inline" type="radio" name="radio198" id="sea">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Asie ou Afrique ?</h4>
+                            <div class="center">
+                                <label class="inline" for="asia">Asie</label>
+                                <input class="inline" type="radio" name="radio207" id="asia" style="margin-right: 10%;">
+                                <label class="inline" for="africa">Afrique</label>
+                                <input class="inline" type="radio" name="radio207" id="africa">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Droitier ou gaucher ?</h4>
+                            <div class="center">
+                                <label class="inline" for="right_hand">Droitier</label>
+                                <input class="inline" type="radio" name="radio216" id="right_hand" style="margin-right: 10%;">
+                                <label class="inline" for="left_hand">Gaucher</label>
+                                <input class="inline" type="radio" name="radio216" id="left_hand">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Travaillez-vous mieux le matin ou l’après-midi ?</h4>
+                            <div class="center">
+                                <label class="inline" for="morning">Matin</label>
+                                <input class="inline" type="radio" name="radio225" id="morning" style="margin-right: 10%;">
+                                <label class="inline" for="afternoon">Après-midi</label>
+                                <input class="inline" type="radio" name="radio225" id="afternoon">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>À quelle heure vous couchez-vous en général ?</h4>
+                            <input class="center" type="text" name="hour" id="hour" placeholder="23h30">
+                        </li>
+                        <li>
+                            <h4>Avez-vous des difficultés à vous endormir ?</h4>
+                            <div class="center">
+                                <label class="inline" for="yes4">Oui</label>
+                                <input class="inline" type="radio" name="radio42" id="yes4" style="margin-right: 10%;">
+                                <label class="inline" for="no4">Non</label>
+                                <input class="inline" type="radio" name="radio42" id="no4">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Avez-vous déjà pris des somnifères ?</h4>
+                            <div class="center">
+                                <label class="inline" for="yes5">Oui</label>
+                                <input class="inline" type="radio" name="radio52" id="yes5" style="margin-right: 10%;">
+                                <label class="inline" for="no5">Non</label>
+                                <input class="inline" type="radio" name="radio52" id="no5">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Avez-vous déjà pris des antidépresseurs ?</h4>
+                            <div class="center">
+                                <label class="inline" for="yes6">Oui</label>
+                                <input class="inline" type="radio" name="radio26" id="yes6" style="margin-right: 10%;">
+                                <label class="inline" for="no6">Non</label>
+                                <input class="inline" type="radio" name="radio26" id="no6">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Avez-vous déjà pris de la drogue ?</h4>
+                            <div class="center">
+                                <label class="inline" for="yes7">Oui</label>
+                                <input class="inline" type="radio" name="radio11" id="yes7" style="margin-right: 10%;">
+                                <label class="inline" for="no7">Non</label>
+                                <input class="inline" type="radio" name="radio11" id="no7">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Avez-vous connu une période de consommation d’alcool supérieure à la moyenne nationale ?</h4>
+                            <div class="center">
+                                <label class="inline" for="yes8">Oui</label>
+                                <input class="inline" type="radio" name="radio12" id="yes8" style="margin-right: 10%;">
+                                <label class="inline" for="no8">Non</label>
+                                <input class="inline" type="radio" name="radio12" id="no8">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Avez-vous déjà été tenté de faire le tour du monde ?</h4>
+                            <div class="center">
+                                <label class="inline" for="yes9">Oui</label>
+                                <input class="inline" type="radio" name="radio13" id="yes9" style="margin-right: 10%;">
+                                <label class="inline" for="no9">Non</label>
+                                <input class="inline" type="radio" name="radio13" id="no9">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Triez-vous vos ordures ?</h4>
+                            <div class="center">
+                                <label class="inline" for="yes3">Oui</label>
+                                <input class="inline" type="radio" name="radio22" id="yes3" style="margin-right: 10%;">
+                                <label class="inline" for="no3">Non</label>
+                                <input class="inline" type="radio" name="radio22" id="no3">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Quel est votre signe astrologique ?</h4>
+                            <div class="center">
+                                <label class="inline" for="astro" style="margin-right: 1%;">Selectionnez :</label>
+                                <select class="inline" name="astro" id="astro">
+                                    <option>Non spécifié</option>
+                                    <option>Bélier</option>
+                                    <option>Taureau</option>
+                                    <option>Gémeaux</option>
+                                    <option>Cancer</option>
+                                    <option>Lion</option>
+                                    <option>Vierge</option>
+                                    <option>Balance</option>
+                                    <option>Scorpion</option>
+                                    <option>Sagittaire</option>
+                                    <option>Capricorne</option>
+                                    <option>Verseau</option>
+                                    <option>Poissons</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Quel est votre chiffre préféré ?</h4>
+                            <div class="center">
+                                <input class="center" type="number" name="numb" id="numb" placeholder="3" style="display: inline;">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Quelle est votre couleur préférée ?</h4>
+                            <input class="center" type="text" name="color" id="color" placeholder="Le violet">
+                        </li>
+                        <li>
+                            <h4>Quel est votre animal fétiche ?</h4>
+                            <input class="center" type="text" name="animal" id="animal" placeholder="Le guépard">
+                        </li>
+                        <li>
+                            <h4>Avez-vous l’impression d’avoir été suffisamment aimé par vos parents ?</h4>
+                            <div class="center">
+                                <label class="inline" for="yes10">Oui</label>
+                                <input class="inline" type="radio" name="radio23" id="yes10" style="margin-right: 10%;">
+                                <label class="inline" for="no10">Non</label>
+                                <input class="inline" type="radio" name="radio23" id="no10">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Avez-vous l’impression que jamais personne ne pourra vous comprendre vraiment ?</h4>
+                            <div class="center">
+                                <label class="inline" for="yes11">Oui</label>
+                                <input class="inline" type="radio" name="radio24" id="yes11" style="margin-right: 10%;">
+                                <label class="inline" for="no11">Non</label>
+                                <input class="inline" type="radio" name="radio24" id="no11">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Avez-vous l’impression qu’il y a des gens qui vous en veulent personnellement ?</h4>
+                            <div class="center">
+                                <label class="inline" for="yes12">Oui</label>
+                                <input class="inline" type="radio" name="radio25" id="yes12" style="margin-right: 10%;">
+                                <label class="inline" for="no12">Non</label>
+                                <input class="inline" type="radio" name="radio25" id="no12">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Croyez-vous au grand amour ?</h4>
+                            <div class="center">
+                                <label class="inline" for="yes13">Oui</label>
+                                <input class="inline" type="radio" name="radio27" id="yes13" style="margin-right: 10%;">
+                                <label class="inline" for="no13">Non</label>
+                                <input class="inline" type="radio" name="radio27" id="no13">
+                            </div>
+                        </li>
+                        <p style="float: left; font-size: 16px;"><span style="color: var(--color_pink);">*</span> = champ requis.</p>
+                        <a class="form_button form_next_page" href="./register_end.html" title="Suivant">Suivant</a>
+                        <a class="form_button form_cancel" href="./register_2.html" title="Annuler">Annuler</a>
+                    </ul>                    
+                </div>
+            </form>
+        </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+          <p class="footer_paragraph">© 2021 Pimper</p>
+    </footer>
+</body>
+</html>

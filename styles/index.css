@@ -1,0 +1,50 @@
+@import url("./main.css");
+
+body{
+  background: url(../imgs/index_background.jpg) center center;
+  background-size: cover;
+}
+
+.main_title{
+  margin-top: 10%;
+  color: var(--color_pink);
+  text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.4);
+  /*-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--color_old_pink);*/
+  font-size: 56px;
+}
+
+.main_desc{
+  margin-top: 4%;
+  line-height: 1.4;
+  color: var(--color_black);
+  text-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.starting{
+  margin-top: 4%;
+  width: 16%;
+  color: var(--color_black);
+  background-color: var(--color_purple_2);
+  border-radius: 12px;
+}
+
+.starting:hover{
+  color: var(--color_white);
+  background-color: var(--color_pink);
+}
+
+.desc{
+  margin-top: 4.5%;
+}
+
+.counter{
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.explain{
+  display: inherit;
+  margin-top: 4%;
+  font-size: 28px;
+}
