@@ -91,3 +91,19 @@ textarea{
     margin-top: 60px;
     line-height: 100%;
 }
+
+.ok_button{
+    font-size: 18px;
+    padding: 10px;
+    background-color: var(--color_purple_2);
+    border-radius: 8px;
+}
+
+.ok_button:hover{
+    color: var(--color_white);
+    background-color: var(--color_pink);
+}
+
+.footer_ok{
+    padding-top: 40px;
+}

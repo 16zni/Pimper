@@ -9,6 +9,7 @@
     --color_gray: #e9e1cc;
     --color_white: #fff9fd;
     --color_black: #0c0c0c;
+    --color_black_shadow: rgba(12, 12, 12, 0.6);
 }
 
 .color_purple{
